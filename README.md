@@ -1,34 +1,11 @@
 # SECAM-Intellivision-RGB-mod
 Yet another RGB mod for the SECAM Inty, this time with THT components. It is based on the original idea and schematic by Yannick Erb, but I've made it through-hole, for those who don't like messing with SMD soldering at home. Much easier to build!
 
-It is supposed to work with model no. 5156 - srial no. P2 xxxxxx French SECAM-modded Intellivision, equipped with the LM1886N IC in their circuitry, probably with other models bearing the same IC.
+It is supposed to work with model no. 5156 - serial no. P2 xxxxxx French SECAM-modded Intellivision, equipped with the LM1886N IC in their circuitry, probably with other models bearing the same IC.
 
 Installation must be done as described here:
 https://sourceforge.net/projects/zunetools/files/RGB_Mod/RGB_mod_manual.pdf/download
 
 My version does not include headers or fixed plugs with colored ribbon cables, just solder directly into the holes individual pieces of cable (or a piece of ribbon) and connect them to the appropriate points on the main Inty PCB, as seen in the photos. Of course you could use any connector matching the holes, but it's not necessary...
-Below there is a table of the connections that need to be done from J2 to the SCART female plug (or directly to a fixed SCART cable, cut and stripped on one side - I prefer this solution rather than drilling the Inty case to match the female SCART plug).
+I have included a table of the connections that need to be done from J2 to the SCART female plug (or directly to a fixed SCART cable, cut and stripped on one side - I prefer this solution rather than drilling the Inty case to match the female SCART plug).
 
-J2                SCART
---                -----
-1 BLUE            7
-2 GREEN           11
-3 RED             15
-4 CSYNC           20
-5 GND             4,5,9,13,17,18
-6 +12V            16 (with NECESSARY R560),8 (with optional R100)
-7 SOUND           2,6
-8 GND             4,5,9,13,17,18 
-
-IMPORTANT!!!
-------------
-As J2 pin 6 feeds the SCART with 12VDC, it is NECESSARY to add a 560 Ohm resistor before pin 16 of the SCART. You can also add (optionally) an 100 Ohm resistor before pin 8.
-
-
-VALUES OF CAPACITORS AND RESISTORS
-----------------------------------
-C1,C2:        47uF
-C3,C4,C5:     100nF
-R1,R4,R7,R10: 470 Ohm
-R2,R5,R8:     1k Ohm
-R3,R6,R9:     2k Ohm
