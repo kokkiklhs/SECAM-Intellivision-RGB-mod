@@ -9,5 +9,7 @@ https://sourceforge.net/projects/zunetools/files/RGB_Mod/RGB_mod_manual.pdf/down
 My version does not include headers or fixed plugs with colored ribbon cables, just solder directly into the holes of J1 individual pieces of cable (or a piece of ribbon) and connect them to the appropriate points on the main Inty PCB, as seen in the photos contained in Yannick's PDF.. Of course you could use any connector matching the holes, but it's not necessary...
 I have included a .txt file with table of the connections that need to be done from J2 to the SCART female socket (or directly to a fixed SCART cable, cut and stripped on one side - I prefer this solution rather than drilling the Inty case to match the female SCART plug). The same file also contains the values of capacitors and resistors required.
 
+Disclaimer: No responsibility at all from my side if these don't work for you as expected, or if you blow up your equipment or if you burn your residence/whole neighbourhood trying to use one of these! This is a pure hobbyist project done during my spare time, I am not an expert or professional, so use these 100% at your own risk!
+
 ***DO NOT FORGET TO ADD THE EXTRA RESISTOR ON THE SCART SIDE, as desribed on the "J2 to SCART connections.txt"
 
